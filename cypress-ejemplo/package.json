@@ -1,0 +1,23 @@
+{
+  "name": "cypress-ejemplo",
+  "version": "1.0.0",
+  "description": "Proyecto base de Cypress para pruebas automatizadas E2E de front",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "test",
+    "framework"
+  ],
+  "author": "Duvier Martínez Alvarez",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.6.4",
+    "esbuild": "^0.20.0"
+  }
+}
